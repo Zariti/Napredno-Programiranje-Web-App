@@ -1,0 +1,71 @@
+/* ManufacturerDetails.css */
+
+.manufacturer-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.manufacturer-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    color: #333;
+}
+
+.manufacturer-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.manufacturer-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.manufacturer-info strong {
+    color: #222;
+}
+
+.manufacturer-logo {
+    margin-top: 20px;
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.home-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+}
+
+.no-manufacturer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+}

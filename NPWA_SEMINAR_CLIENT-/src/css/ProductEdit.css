@@ -1,0 +1,85 @@
+/* ProductEdit.css */
+
+.product-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9fb;
+    padding: 20px;
+}
+
+.product-edit-form {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    
+}
+
+.product-edit-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.product-edit-form input,
+.product-edit-form select {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.product-edit-form input:focus,
+.product-edit-form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.product-edit-form button {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-edit-form button:hover {
+    background-color: #0056b3;
+}
+
+.product-edit-form p {
+    color: #ff4d4d;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-edit-form select option {
+    font-size: 16px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #555;
+}
